@@ -1,0 +1,98 @@
+body {
+    --light: #E4E6E8;
+    --medium-light: #6EBA9A;
+    --medium-dark: #053926;
+    --dark: #01110A;
+
+    background-color: var(--light);
+}
+
+header,
+footer {
+    background-color: var(--medium-dark);
+    color: var(--light);
+}
+
+#header-logo {
+    margin: 0 30px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+#github-icon {
+    border: 2px solid var(--light);
+    border-radius: 50px;
+}
+
+#login-form {
+    margin: 3rem auto;
+    background-color: var(--medium-light);
+    width: 50%;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: var(--medium-dark);
+    color: var(--light);
+}
+
+#logout-btn {
+    background-color: var(--medium-light);
+    color: var(--dark);
+}
+
+.login-btn:hover,
+#logout-btn:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+#auth-next-btn {
+    margin-left: 20px;
+}
+
+#forgot-password {
+    color: var(--light) !important;
+}
+
+#forgot-password:hover {
+    color: var(--dark) !important;
+}
+
+#profile {
+    width: 60%;
+    margin: 3rem auto;
+    background-color: var(--medium-light);
+    border-radius: 5px;
+}
+
+#profile-img {
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+}
+
+#profile-fields {
+    font-weight: bold;
+}
+
+#user-details {
+    width: 60%;
+}
+
+#avatar-form {
+    width: 225px;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+#avatar {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    cursor: pointer;
+}

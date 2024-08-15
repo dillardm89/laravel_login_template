@@ -1,0 +1,12 @@
+[2024-08-14 21:52:12] local.DEBUG: User: removable89 // action: logout  
+[2024-08-14 21:52:35] local.DEBUG: User: cocoa5@email.com // action: code sent to email  
+[2024-08-14 21:52:35] local.DEBUG: email sent  
+[2024-08-14 21:52:46] local.DEBUG: User: cocoa5@email.com // action: email validated  
+[2024-08-14 21:52:51] local.DEBUG: User: cocoa5 // action: login  
+[2024-08-14 21:53:36] local.DEBUG: User: cocoa5 // action: avatar updated  
+[2024-08-14 21:53:50] local.DEBUG: User: cocoa5 // action: logout  
+[2024-08-14 21:54:30] local.DEBUG: User: cocoa5@email.com // action: code sent to email  
+[2024-08-14 21:54:30] local.DEBUG: email sent  
+[2024-08-14 21:54:42] local.DEBUG: User: cocoa5@email.com // action: email validated  
+[2024-08-14 21:54:50] local.DEBUG: User: cocoa5 // action: login  
+[2024-08-14 21:55:04] local.DEBUG: User: cocoa5 // action: logout  
