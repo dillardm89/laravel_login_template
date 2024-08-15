@@ -1,23 +1,28 @@
-/vendor/
+# VSCode
+/.vscode
+
+#Env variables
+.env
+
+# Database
+.sqlite
+
+# Node
+package-lock.json
 node_modules/
-npm-debug.log
-yarn-error.log
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# Composer / Node
+/vendor
+composer.lock
 
-# Laravel 5 & Lumen specific
+# Laravel 10
 public/storage
 public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
+public/build
+/.phpunit.cache
+/storage/*.key
 Homestead.json
-/.vagrant
-.phpunit.result.cache
+Homestead.yaml
+auth.json
+/.fleet
+/.idea
