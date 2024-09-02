@@ -3,26 +3,8 @@ Laravel Login App Template
 
 ![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3JsaWY1OTE0c2gzNW81MmEwanA3MGhqa29hcjVidHU4MzhoMTVibiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/no71fU7M1KMrQXvghZ/giphy.gif)
 
-## Env Required Configs
 
-### Required variables prior to deploy.
-
--   DB_CONNECTION=(your_db -> ex: mysql)
--   DB_HOST=(your_host -> ex: 127.0.0.1)
--   DB_PORT=(your_port -> ex: 3306)
--   DB_DATABASE=(your_dbname)
--   DB_USERNAME=(your_username)
--   DB_PASSWORD=(your_password)
-
--   MAIL_MAILER=smtp (or alternative)
--   MAIL_HOST=(your_email_host)
--   MAIL_PORT=(your_email_port -> ex: 587)
--   MAIL_USERNAME=(your_username)
--   MAIL_PASSWORD=(your_password)
--   MAIL_ENCRYPTION=(your_encryption -> ex: tls)
--   MAIL_FROM_ADDRESS=(your_email)
-
-## Deploy Locally
+## Installation & Deploy
 
 ### Running this app locally requires multiple (3) terminals.
 
